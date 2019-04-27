@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-"""construction of the game:
+"""youtube link:
 https://youtu.be/Gsejrr3oAYA, https://youtu.be/e-OPwrCh_i0"""
 import gi
 gi.require_version('Gtk', '3.0')
