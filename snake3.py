@@ -12,7 +12,7 @@ snake = {"dikey":25, "yatay":20, "genislik":13, "yukseklik":13,
 class main(Gtk.Window):
 	def __init__(self):
 		Gtk.Window.__init__(self)
-		self.set_title("Yilan Oyunu")
+		self.set_title("Yilan (snakegame) Oyunu")
 		self.connect("destroy", Gtk.main_quit)
 		self.connect("key-press-event", self.push)
 		GObject.timeout_add(snake.get("zamanlayici"), self.timer)
